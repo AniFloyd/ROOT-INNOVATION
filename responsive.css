@@ -1,0 +1,12 @@
+@media only screen and (max-width:820px) {
+    .card-sec{
+        margin-left:-30rem;
+        padding:-20rem;
+    }
+    .banner-h2{
+        margin-left:-30rem;
+    }
+    .banner-head{
+        width:600px;
+    }
+}
