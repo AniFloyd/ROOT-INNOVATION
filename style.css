@@ -197,6 +197,85 @@ transform: scale(0.90);
     font-size:2rem;
     color: white;
 }
-.card:hover{
-    transform:scale(1.1);
+
+#testi{
+    background-color: aliceblue;
+    height:40rem;
+    font-family: 'Share Tech Mono', monospace;
+}
+.testi-head{
+    color: cyan;
+    text-shadow:0px 2px 2px black;
+    padding:1rem;
+}
+#testi-cards{
+    padding:4rem;
+    justify-content: center;
+}
+.test-card-img{
+   height:10rem;    
+}
+.testi-icons{
+    color: goldenrod;
+}
+#testi-cards > div:nth-child(n){
+    width:30rem;
+}
+#contact{
+    height:90rem;
+    background-color:antiquewhite;
+    font-family: 'Share Tech Mono', monospace;
+}
+.contact-head{
+    color: cyan;
+    text-shadow: 0px 2px 2px black;
+}
+.contact-icons{
+    font-size:5rem;
+    color: blueviolet;
+    text-align: center;
+    padding:2rem;
+}
+#contact > div > div:nth-child(n){
+    width:20rem;
+    margin-left:5rem;
+    
+}
+.contact-head1{
+    color: cyan;
+    text-shadow: 2px 2px 2px black;
+}
+#inp{
+    width:22rem;
+    border:2px solid gray;
+    border-radius: 20px 4px 2px 40px;
+    outline: none;
+    height:2.5rem;
+    padding:15px;
+}
+.sub-img{
+    background:url(assests/contact-us-img-2.svg) no-repeat center center/cover;
+    height:30rem;
+    width:30rem;
+    margin-left:30rem;
+}
+.sub-contact-cards{
+    padding:2rem;
+}
+
+.footer{
+    background: url(assests/footer.webp) no-repeat center center/cover;
+    height:38rem;
+}
+.footer-head{
+    color: cyan;
+    padding: 2rem;
+}
+.footer-lists{
+    flex-direction: column;
+    padding:2rem;
+}
+.footer-icons{
+    font-size:4rem;
+    color: cyan;
 }
